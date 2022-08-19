@@ -3,32 +3,36 @@
     "id": 101,
     "courseName": "Machine Learning",
     "courserDuration": " 6 Month",
+    "img": "https://img.freepik.com/free-photo/ai-nuclear-energy-background-future-innovation-disruptive-technology_53876-129783.jpg?w=1380&t=st=1660941467~exp=1660942067~hmac=554eb4a968ddecf19819bc279e123c05dee58f417cc82905052a3fd5fe150040",
     "pirce": 24.99,
     "discription": "Learn to create Machine Learing Algorithms in Python and R from two Data Science expert,Code template included",
     "Rating": "4/5"
   },
   {
     "id": 102,
-    "courseName": "Mac",
+    "courseName": "Learn Python programming",
     "courserDuration": " 6 Month",
-    "pirce": 24.99,
-    "discription": "Learn to create Machine Learing Algorithms in Python and R from two Data Science expert,Code template included",
-    "Rating": "4/5"
+    "img": "https://img.freepik.com/free-vector/programmer-working-web-development-code-engineer-programming-python-php-java-script-computer_90220-250.jpg?w=996&t=st=1660941594~exp=1660942194~hmac=21bccec685cbe7fc89d84cce1b7a556ea8958116acb796a5f74e1431411f1cb6",
+    "pirce": 19.99,
+    "discription": "This Python course is for beginner, that teaches you the python language fast and online support",
+    "Rating": "3/5"
   },
   {
     "id": 103,
-    "courseName": "Machine Learning",
+    "courseName": "JavaScript Course 2022: From Zero to Expert!",
     "courserDuration": " 6 Month",
-    "pirce": 24.99,
-    "discription": "Learn to create Machine Learing Algorithms in Python and R from two Data Science expert,Code template included",
+    "img": "https://img.freepik.com/free-vector/programmers-using-javascript-programming-language-computer-tiny-people-javascript-language-javascript-engine-js-web-development-concept-bright-vibrant-violet-isolated-illustration_335657-986.jpg?w=1380&t=st=1660941512~exp=1660942112~hmac=68d9cb0f2719d850db855510857002c7053d4cfa262ee36012f521bc483a09ec",
+    "pirce": 34.99,
+    "discription": "The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory.Code with Project",
     "Rating": "4/5"
   },
   {
     "id": 104,
-    "courseName": "Machine Learning",
+    "courseName": "C Programming for Beginners",
     "courserDuration": " 6 Month",
-    "pirce": 24.99,
-    "discription": "Learn to create Machine Learing Algorithms in Python and R from two Data Science expert,Code template included",
+    "img": "https://img.freepik.com/free-vector/hand-drawn-web-developers-working_23-2148819605.jpg?w=826&t=st=1660941751~exp=1660942351~hmac=23d32b383056903db5453ae7b24448e929de56cbafa4a934033edd5ed9f1c14a",
+    "pirce": 33.99,
+    "discription": "C Programming will increase career options. Become a better dev in other languages by learning C with updated projects",
     "Rating": "4/5"
   }
 ]
