@@ -1,0 +1,34 @@
+[
+  {
+    "id": 101,
+    "courseName": "Machine Learning",
+    "courserDuration": " 6 Month",
+    "pirce": 24.99,
+    "discription": "Learn to create Machine Learing Algorithms in Python and R from two Data Science expert,Code template included",
+    "Rating": "4/5"
+  },
+  {
+    "id": 102,
+    "courseName": "Mac",
+    "courserDuration": " 6 Month",
+    "pirce": 24.99,
+    "discription": "Learn to create Machine Learing Algorithms in Python and R from two Data Science expert,Code template included",
+    "Rating": "4/5"
+  },
+  {
+    "id": 103,
+    "courseName": "Machine Learning",
+    "courserDuration": " 6 Month",
+    "pirce": 24.99,
+    "discription": "Learn to create Machine Learing Algorithms in Python and R from two Data Science expert,Code template included",
+    "Rating": "4/5"
+  },
+  {
+    "id": 104,
+    "courseName": "Machine Learning",
+    "courserDuration": " 6 Month",
+    "pirce": 24.99,
+    "discription": "Learn to create Machine Learing Algorithms in Python and R from two Data Science expert,Code template included",
+    "Rating": "4/5"
+  }
+]
