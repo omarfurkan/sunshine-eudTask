@@ -11,7 +11,7 @@ const Header = () => {
     const logOut = () => {
         signOut(auth)
     }
-    // console.log(user?.auth?.currentUser?.email)
+    console.log(user?.auth?.currentUser?.email)
     if (loading) {
         return (
             <div>
@@ -21,9 +21,12 @@ const Header = () => {
     }
 
     if (error) {
-        return error.message;
+        return (
+            <div>
+                <p>Error: {error.message}</p>
+            </div>
+        );
     }
-
 
     return (
         <div className='bg-[#227db3] text-white font-semibold sticky top-0 z-50'>
