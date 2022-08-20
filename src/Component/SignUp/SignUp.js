@@ -27,7 +27,17 @@ const SignUp = () => {
         if (loading) {
             return <p>Loading...</p>;
         }
+        if (error) {
+            return (
+                <div>
+                    <p>Error: {error.message}</p>
+                </div>
+            );
+        }
     }
+
+
+
     useEffect(() => {
         if (user) {
             return navigate(from, { replace: true });

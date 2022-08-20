@@ -28,6 +28,13 @@ const Login = () => {
     if (loading) {
         return <p>Loading...</p>;
     }
+    if (error) {
+        return (
+            <div>
+                <p>Error: {error.message}</p>
+            </div>
+        );
+    }
 
 
     return (

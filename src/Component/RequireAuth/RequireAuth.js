@@ -11,6 +11,14 @@ const RequireAuth = ({ children }) => {
         return <p>Loading...</p>;
     }
 
+    if (error) {
+        return (
+            <div>
+                <p>Error: {error.message}</p>
+            </div>
+        );
+    }
+
     if (!user) {
         // Redirect them to the /login page, but save the current location they were
         // trying to go to when they were redirected. This allows us to send them

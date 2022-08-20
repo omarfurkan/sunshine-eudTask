@@ -11,13 +11,17 @@ const Header = () => {
     const logOut = () => {
         signOut(auth)
     }
-    console.log(user?.auth?.currentUser?.email)
+    // console.log(user?.auth?.currentUser?.email)
     if (loading) {
         return (
             <div>
                 <Loading />
             </div>
         );
+    }
+
+    if (error) {
+        return error.message;
     }
 
 
