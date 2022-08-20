@@ -10,9 +10,9 @@ const Testimonials = () => {
     ]
     return (
         <div className='bg-[#d6f5fb]'>
-            <div className='w-5/6 mx-auto pb-36 pt-32'>
-                <h3 className='text-center pb-20 text-4xl font-bold text-[#45a2a8]'>Student Testimonials</h3>
-                <div className=' flex justify-center gap-8'>
+            <div className='w-5/6 mx-auto pb-12 md:pb-36 pt-14 md:pt-32'>
+                <h3 className='text-center pb-8 md:pb-20 text-4xl font-bold text-[#45a2a8]'>Student Testimonials</h3>
+                <div className=' flex flex-col md:flex-row justify-center gap-8'>
                     {
                         reviews.map((review, index) => <Testimonial
                             key={index}

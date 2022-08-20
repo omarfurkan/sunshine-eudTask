@@ -8,17 +8,17 @@ const About = () => {
     return (
         <div className='bg-[#76d5d9]'>
             <div className='w-5/6 mx-auto'>
-                <div className='grid grid-cols-2 text-white items-center'>
-                    <div className='py-48'>
+                <div className='grid md:grid-cols-2 text-white items-center'>
+                    <div className=' py-8 md:py-48'>
                         <h3 className='text-4xl pb-4'>Why eduTask?</h3>
-                        <p className='w-4/6 leading-relaxed text-lg'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, adipisci saepe. Fuga, amet, sit impedit dignissimos exercitationem pariatur, reprehenderit eveniet obcaecati quas aut quia omnis mollitia cupiditate ad blanditiis eaque. Illum obcaecati veritatis aliquam hic nisi nobis nihil rem, eaque est veniam sunt? Dicta, aspernatur. Reiciendis quidem expedita earum ex!</p>
+                        <p className='md:w-4/6 leading-relaxed text-lg'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, adipisci saepe. Fuga, amet, sit impedit dignissimos exercitationem pariatur, reprehenderit eveniet obcaecati quas aut quia omnis mollitia cupiditate ad blanditiis eaque. Illum obcaecati veritatis aliquam hic nisi nobis nihil rem, eaque est veniam sunt? Dicta, aspernatur. Reiciendis quidem expedita earum ex!</p>
                     </div>
-                    <div className='relative'>
+                    <div className='relative pb-8'>
                         <div className='mt-6 block'>
                             <img className='w-[500px]' src={aboutImg} alt="" />
                         </div>
-                        <div className='mt-6 float-right border-8 absolute top-10 right-36'>
-                            <img className='w-[300px]' src={aboutImg2} alt="" />
+                        <div className='md:mt-6 float-right border-8 absolute top-12 md:top-10 right-0 md:right-36'>
+                            <img className='w-40 md:w-[300px]' src={aboutImg2} alt="" />
                         </div>
                     </div>
                 </div>
