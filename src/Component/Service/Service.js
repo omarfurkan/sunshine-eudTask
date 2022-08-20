@@ -1,7 +1,14 @@
 import React from 'react';
+import { useNavigate } from "react-router-dom";
 
 const Service = ({ service }) => {
+    let navigate = useNavigate();
     const { id, courseName, courserDuration, img, pirce, discription } = service;
+
+    const buyCourse = () => {
+        navigate(`/buycourse/${id}`)
+    }
+
     return (
         <div className='bg-[#76d5d9] '>
             <div className=''>
@@ -13,7 +20,7 @@ const Service = ({ service }) => {
                 <p className=' text-lg py-2'>Course Duration: <span className='font-semibold'>{courserDuration}</span> </p>
                 <p className='text-lg'>Price: $ <span className='text-2xl font-bold'>{pirce}</span> </p>
                 <div className='flex justify-end '>
-                    <button className='border-2 py-1 px-10 font-bold hover:bg-[#45a2a8]'>Buy</button>
+                    <button onClick={buyCourse} className='border-2 py-1 px-10 font-bold hover:bg-[#45a2a8]'>Buy</button>
                 </div>
             </div>
         </div>
